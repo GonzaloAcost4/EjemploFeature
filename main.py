@@ -31,6 +31,8 @@ def main():
         print("Resultado:", multiplicar(a, b))
     elif op == "división":
         print("Resultado:", dividir(a, b))
+    elif op == "potencia":
+    print("Resultado:", potencia(a, b))
     else:
         print("Operación no válida.")
 
