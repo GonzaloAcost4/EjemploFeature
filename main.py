@@ -32,7 +32,7 @@ def main():
     elif op == "división":
         print("Resultado:", dividir(a, b))
     elif op == "potencia":
-    print("Resultado:", potencia(a, b))
+        print("Resultado:", potencia(a, b))
     else:
         print("Operación no válida.")
 
