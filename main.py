@@ -12,9 +12,12 @@ def dividir(a, b):
         return "Error: división por cero"
     return a / b
 
+def potencia(a, b):
+    return a ** b
+
 def main():
     print("Calculadora básica")
-    print("Operaciones: suma, resta, multiplicación, división")
+    print("Operaciones: suma, resta, multiplicación, división, potencia")
     
     op = input("Ingrese operación: ").lower()
     a = float(input("Primer número: "))
